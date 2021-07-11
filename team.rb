@@ -17,17 +17,17 @@ class Team
   end
 end
 
-team1 = Team.new("Giants",67,45,8)
-team2 = Team.new("Tigers",60,53,7)
-team3 = Team.new("Dragons",60,55,5)
-team4 = Team.new("BayStars",56,58,6)
-team5 = Team.new("Carp",52,56,12)
-team6 = Team.new("Swallows",41,69,10)
+giants = Team.new("Giants",67,45,8)
+tigers = Team.new("Tigers",60,53,7)
+dragons = Team.new("Dragons",60,55,5)
+bayStars = Team.new("BayStars",56,58,6)
+carp = Team.new("Carp",52,56,12)
+swallows = Team.new("Swallows",41,69,10)
 
-puts "【2020年プロ野球セントラル・リーグの勝敗】"
-team1.show_team_result
-team2.show_team_result
-team3.show_team_result
-team4.show_team_result
-team5.show_team_result
-team6.show_team_result
+puts "【2020年プロ野球セントラル・リーグ各チームの成績】"
+giants.show_team_result
+tigers.show_team_result
+dragons.show_team_result
+bayStars.show_team_result
+carp.show_team_result
+swallows.show_team_result
